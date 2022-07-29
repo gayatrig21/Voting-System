@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="linearclick">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtgrpname"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtgrpname"
+            android:text="UPDATE"
+            android:background="#002366"
+            android:textColor="#FFFFFF"
+            android:id="@+id/updatebtn"
+            android:onClick="Updatedata"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:background="#002366"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/txtgrpname"
+            android:layout_marginLeft="100dp"
+            />
+
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

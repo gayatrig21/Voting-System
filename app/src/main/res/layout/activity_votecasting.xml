@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Votecasting"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AB363535">
+
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Candidates for vote"
+    android:textColor="#FFFFFF"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:padding="10dp"
+    android:id="@+id/txtcand"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/user_candidate_linear1"
+        android:layout_below="@id/txtcand"
+        android:layout_marginTop="25dp"
+        android:background="#38ffffff">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/user_candidate_image_view1"
+            android:background="@drawable/ic_person_black_24dp">
+        </ImageView>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_group_name_text1"
+                android:text="Tejal Pansare"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_group_text_desc1"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                android:text="IT Student"
+                android:layout_below="@id/user_group_name_text1"/>
+
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vote"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#002366"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/button1"
+            android:textColor="#ffff">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/user_candidate_linear2"
+        android:layout_below="@id/user_candidate_linear1"
+        android:layout_marginTop="25dp"
+        android:background="#38ffffff">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/user_candidate_image_view2"
+            android:background="@drawable/ic_person_black_24dp">
+        </ImageView>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_group_name_text2"
+                android:text="Gayatri Gade"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_group_text_desc2"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                android:text="CSE Student"
+                android:layout_below="@id/user_group_name_text2"/>
+
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vote"
+            android:id="@+id/button2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="#002366"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffff">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/user_candidate_linear3"
+        android:layout_below="@id/user_candidate_linear2"
+        android:layout_marginTop="25dp"
+        android:background="#38ffffff">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/user_candidate_image_view3"
+            android:background="@drawable/ic_person_black_24dp">
+        </ImageView>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_group_name_text3"
+                android:text="Mayuri"
+                android:textColor="#ffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_group_text_desc3"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                android:text="ME Student"
+                android:layout_below="@id/user_group_name_text3"/>
+
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vote"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="98dp"
+            android:background="#002366"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/button3"
+            android:textColor="#ffff">
+        </Button>
+    </LinearLayout>
+</RelativeLayout>

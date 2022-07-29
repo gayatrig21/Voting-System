@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_new_registration"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AB363535"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_new_registration"
+        android:text="New Registration"
+        android:textSize="40dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/user_nr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_new_registration"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:hint="Name"
+        android:background="#38ffffff"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/user_nr_mob_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nr_name"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:textColor="#FFFFFF"
+        android:hint="Mob No."
+        android:background="#38ffffff"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/user_nr_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nr_mob_no"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Date of Birth(DD/MM/YYYY)"
+        android:textColorHint="#ffff"
+        android:background="#38ffffff"
+        android:padding="7dp"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/user_nr_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nr_dob"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:hint="Address"
+        android:background="#38ffffff"
+        android:textColor="#FFFFFF"
+        android:padding="7dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/user_nr_uniqueid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nr_address"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:hint="Unique Id (Aadhar card)"
+        android:background="#38ffffff"
+        android:padding="7dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/user_nr_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nr_uniqueid"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:hint="Password"
+        android:textColor="#FFFFFF"
+        android:background="#38ffffff"
+        android:padding="7dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/user_nr_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nr_password"
+        android:ems="10"
+        android:textColorHint="#ffff"
+        android:hint="Confirm Password"
+        android:background="#38ffffff"
+        android:padding="7dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/user_nr_selectfile"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/user_nr_confirm"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="30dp"
+
+        android:background="@drawable/ic_folder_black_24dp"/>
+
+
+    <ImageView
+        android:id="@+id/user_nr_imageview"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/user_nr_confirm"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+
+        />
+
+    <Button
+        android:id="@+id/user_nr_submit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/user_nr_capturefile"
+        android:layout_centerInParent="true"
+        android:ems="12"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:onClick="newuserreg"/>
+
+    <Button
+        android:id="@+id/user_nr_capturefile"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/user_nr_selectfile"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_photo_camera_black_24dp"/>
+
+
+
+</RelativeLayout>

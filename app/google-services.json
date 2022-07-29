@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "904354066705",
+    "firebase_url": "https://voting-system-41876-default-rtdb.firebaseio.com",
+    "project_id": "voting-system-41876",
+    "storage_bucket": "voting-system-41876.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904354066705:android:cfb1c0738173102d7bdcb0",
+        "android_client_info": {
+          "package_name": "com.example.votingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904354066705-02p7gtmg7avrfej90uu9cmnomp05mpfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6WKsAG4HCApJ317_EVn3KbH88OvaKW1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904354066705-02p7gtmg7avrfej90uu9cmnomp05mpfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

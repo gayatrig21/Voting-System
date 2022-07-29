@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adminpage"
+    android:background="@drawable/bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AB363535">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/cregrp"
+            android:background="#002366"
+            android:text="Create Groups"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+
+            >
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/cregrp"
+            android:id="@+id/addcand"
+            android:text="Add candidate"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="#002366"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"></Button>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/addcand"
+            android:id="@+id/viewgrp"
+            android:text="View Groups"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="#002366"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/viewgrp"
+            android:id="@+id/resgrp"
+            android:text="Report"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="#002366"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"></Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>

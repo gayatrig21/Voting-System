@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AB363535"
+        tools:layout_editor_absoluteX="-63dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="402dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                android:width="70dp"
+                android:height="80dp"
+                android:drawablePadding="20dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="14sp"
+                android:maxHeight="80dp"
+                android:paddingTop="20dp"
+                android:text="Welcome to Online Voting System"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:autoSizeMaxTextSize="80dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="30dp"
+        tools:ignore="MissingConstraints" >
+
+        <Button
+            android:id="@+id/adminbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/adminf" />
+
+        <Button
+            android:id="@+id/userbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="235dp"
+            android:layout_below="@+id/adminbtn"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="60dp"
+
+            android:background="@drawable/user" />
+    </RelativeLayout>
+
+</RelativeLayout>
